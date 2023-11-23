@@ -167,7 +167,7 @@ Comparisons to [Tune-A-Video](https://github.com/showlab/Tune-A-Video).
 </tr>
 <tr>
 	<td width=20% style="text-align:center;"> a man is skiing</td>
-	<td width=20% style="text-align:center;"> mickey mouse is skiing on the snow</td>
+  <td width=20% style="text-align:center;">  <span style="color: red;">mickey mouse</span> is skiing on the snow</td>
 	<td width=20% style="text-align:center;"> <span style="color: red;">spider man</span> is skiing on the <span style="color: red;">beach, cartoon style</span> </td>
 	<td width=20% style="text-align:center;"> <span style="color: red;">wonder woman, wearing a cowboy hat</span>, is skiing </td>
 	<td width=20% style="text-align:center;"> a man, <span style="color: red;">wearing pink clothes</span>, is skiing <span style="color: red;">at sunset</span> </td>
@@ -344,10 +344,3 @@ Comparisons to [Training-free methods](https://github.com/Picsart-AI-Research/Te
 </tr>
 </table>
 
-
-
-</table>
-
-## Acknowledgements
-
-- This code builds on [Tune-A-Video](https://github.com/showlab/Tune-A-Video) and [diffusers](https://github.com/huggingface/diffusers). Thanks for open-sourcing!
