@@ -70,101 +70,103 @@ video = pipe(prompt, latents=ddim_inv_latent, video_length=24, height=512, width
 save_videos_grid(video, f"./{prompt}.gif")
 ```
 
+
+
 ## Results
+
 ### Tune-A-Video
 <table class="center">
 <tr>
 	<td > <b>Input video </b></td>
-	<td colspan="4"><b> Tune-A-Video </b></td>
+	<td colspan="4" style="text-align:center;" ><b> Tune-A-Video </b></td>
 </tr>
 <tr>
   <td><img src="./assets/tune-a-video/car-turn.gif"></td>
   <td><img src="./assets/tune-a-video/car-turn_a jeep car is moving on the beach.gif"></td>
-    <td><img src="./assets/tune-a-video/car-turn_a jeep car is moving on the snow.gif"></td>
+  <td><img src="./assets/tune-a-video/car-turn_a jeep car is moving on the snow.gif"></td>
   <td><img src="./assets/tune-a-video/car-turn_a jeep car is moving on the road, cartoon style.gif"></td>
   <td><img src="./assets/tune-a-video/car-turn_a sports car is moving on the road.gif"></td>
 </tr>
 <tr>
 	<td > <b> Input video </b> </td>
-	<td colspan="4"><b> Tune-A-Video + smooth loss </b> </td>
+  <td colspan="4" style="text-align:center;" ><b> Tune-A-Video + <span style="color: red;">smooth loss</span> </b> </td>
 </tr>
 <tr>
-<td><img src="./assets/tune-a-video/car-turn.gif"></td>
+  <td><img src="./assets/tune-a-video/car-turn.gif"></td>
   <td><img src="./assets/tune-a-video/car-turn_smooth_a jeep car is moving on the beach.gif"></td>
-    <td><img src="./assets/tune-a-video/car-turn_smooth_a jeep car is moving on the snow.gif"></td>
+  <td><img src="./assets/tune-a-video/car-turn_smooth_a jeep car is moving on the snow.gif"></td>
   <td><img src="./assets/tune-a-video/car-turn_smooth_a jeep car is moving on the road, cartoon style.gif"></td>
   <td><img src="./assets/tune-a-video/car-turn_smooth_a sports car is moving on the road.gif"></td>
 </tr>
 <tr>
-	<td> a jeep car is moving on the road</td>
-	<td> a jeep car is moving on the beach </td>
-	<td> a jeep car is moving on the snow </td>
-	<td> a jeep car is moving on the road, cartoon style </td>
-	<td> a sports car is moving on the road </td>
+	<td width=20% style="text-align:center;"> a jeep car is moving on the road</td>
+	<td width=20% style="text-align:center;"> a jeep car is moving on the <span style="color: red;">beach</span> </td>
+	<td width=20% style="text-align:center;"> a jeep car is moving on the <span style="color: red;">snow</span> </td>
+	<td width=20% style="text-align:center;"> a jeep car is moving on the road, <span style="color: red;">cartoon style</span> </td>
+	<td width=20% style="text-align:center;"> a <span style="color: red;">sports car</span> is moving on the road </td>
 </tr>
-%
-%
 <tr>
 	<td > <b>Input video </b></td>
-	<td colspan="4"><b> Tune-A-Video </b></td>
+	<td colspan="4" style="text-align:center;"><b> Tune-A-Video </b></td>
 </tr>
 <tr>
-<td><img src="./assets/tune-a-video/rabbit-watermelon.gif"></td>
+  <td><img src="./assets/tune-a-video/rabbit-watermelon.gif"></td>
   <td><img src="./assets/tune-a-video/rabbit-watermelon_a tiger is eating a watermelon.gif"></td>
-    <td><img src="./assets/tune-a-video/rabbit-watermelon_a rabbit is eating an orange.gif"></td>
+  <td><img src="./assets/tune-a-video/rabbit-watermelon_a rabbit is eating an orange.gif"></td>
   <td><img src="./assets/tune-a-video/rabbit-watermelon_a rabbit is eating a pizza.gif"></td>
   <td><img src="./assets/tune-a-video/rabbit-watermelon_a puppy is eating an orange.gif"></td>
 </tr>
 <tr>
 	<td > <b> Input video </b> </td>
-	<td colspan="4"><b> Tune-A-Video + smooth loss </b> </td>
+  <td colspan="4" style="text-align:center;"><b> Tune-A-Video + <span style="color: red;">smooth loss</span> </b> </td>
 </tr>
 <tr>
-<td><img src="./assets/tune-a-video/rabbit-watermelon.gif"></td>
+  <td><img src="./assets/tune-a-video/rabbit-watermelon.gif"></td>
   <td><img src="./assets/tune-a-video/rabbit-watermelon_smooth_a tiger is eating a watermelon.gif"></td>
-    <td><img src="./assets/tune-a-video/rabbit-watermelon_smooth_a rabbit is eating an orange.gif"></td>
+  <td><img src="./assets/tune-a-video/rabbit-watermelon_smooth_a rabbit is eating an orange.gif"></td>
   <td><img src="./assets/tune-a-video/rabbit-watermelon_smooth_a rabbit is eating a pizza.gif"></td>
   <td><img src="./assets/tune-a-video/rabbit-watermelon_smooth_a puppy is eating an orange.gif"></td>
 </tr>
 <tr>
-	<td> a rabbit is eating a watermelon</td>
-	<td> a tiger is eating a watermelon </td>
-	<td> a rabbit is eating an orange </td>
-	<td> a rabbit is eating a pizza </td>
-	<td> a puppy is eating an orange</td>
+	<td width=20% style="text-align:center;"> a rabbit is eating a watermelon</td>
+	<td width=20% style="text-align:center;"> a <span style="color: red;">tiger</span> is eating a watermelon </td>
+	<td width=20% style="text-align:center;"> a rabbit is eating an <span style="color: red;">orange</span> </td>
+	<td width=20% style="text-align:center;"> a rabbit is eating a <span style="color: red;">pizza</span> </td>
+	<td width=20% style="text-align:center;"> a <span style="color: red;">puppy</span> is eating an <span style="color: red;">orange</span></td>
 </tr>
-%
-%
 <tr>
 	<td > <b>Input video </b></td>
-	<td colspan="4"><b> Tune-A-Video </b></td>
+	<td colspan="4" style="text-align:center;"><b> Tune-A-Video </b></td>
 </tr>
 <tr>
-<td><img src="./assets/tune-a-video/man-skiing.gif"></td>
+  <td><img src="./assets/tune-a-video/man-skiing.gif"></td>
   <td><img src="./assets/tune-a-video/man-skiing_mickey mouse is skiing on the snow.gif"></td>
-    <td><img src="./assets/tune-a-video/man-skiing_spider man is skiing on the beach, cartoon style.gif"></td>
+  <td><img src="./assets/tune-a-video/man-skiing_spider man is skiing on the beach, cartoon style.gif"></td>
   <td><img src="./assets/tune-a-video/man-skiing_wonder woman, wearing a cowboy hat, is skiing.gif"></td>
   <td><img src="./assets/tune-a-video/man-skiing_a man, wearing pink clothes, is skiing at sunset.gif"></td>
 </tr>
 <tr>
 	<td > <b> Input video </b> </td>
-	<td colspan="4"><b> Tune-A-Video + smooth loss </b> </td>
+  <td colspan="4" style="text-align:center;"><b> Tune-A-Video + <span style="color: red;">smooth loss</span> </b> </td>
 </tr>
 <tr>
-<td><img src="./assets/tune-a-video/man-skiing.gif"></td>
+  <td><img src="./assets/tune-a-video/man-skiing.gif"></td>
   <td><img src="./assets/tune-a-video/man-skiing_smooth_mickey mouse is skiing on the snow.gif"></td>
-    <td><img src="./assets/tune-a-video/man-skiing_smooth_spider man is skiing on the beach, cartoon style.gif"></td>
+  <td><img src="./assets/tune-a-video/man-skiing_smooth_spider man is skiing on the beach, cartoon style.gif"></td>
   <td><img src="./assets/tune-a-video/man-skiing_smooth_wonder woman, wearing a cowboy hat, is skiing.gif"></td>
   <td><img src="./assets/tune-a-video/man-skiing_smooth_a man, wearing pink clothes, is skiing at sunset.gif"></td>
 </tr>
 <tr>
-	<td> a man is skiing</td>
-	<td> mickey mouse is skiing on the snow </td>
-	<td> spider man is skiing on the beach, cartoon style </td>
-	<td> wonder woman, wearing a cowboy hat, is skiing </td>
-	<td> a man, wearing pink clothes, is skiing at sunset </td>
+	<td width=20% style="text-align:center;"> a man is skiing</td>
+	<td width=20% style="text-align:center;"> <span style="color: red;">mickey mouse</span> is skiing on the snow </td>
+	<td width=20% style="text-align:center;"> <span style="color: red;">spider man</span> is skiing on the <span style="color: red;">beach, cartoon style</span> </td>
+	<td width=20% style="text-align:center;"> <span style="color: red;">wonder woman, wearing a cowboy hat</span>, is skiing </td>
+	<td width=20% style="text-align:center;"> a man, <span style="color: red;">wearing pink clothes</span>, is skiing <span style="color: red;">at sunset</span> </td>
 </tr>
 
+
+
+**We provide other baseline results comparisons, as follows:**
 
 
 
@@ -173,52 +175,46 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 <table class="center">
 <tr>
-	<td > <b>Input video </b></td>
-	<td ><b> Make-A-Protagonist </b></td>
-	<td ><b> Make-A-Protagonist + smooth loss</b></td>
+	<td> <b>Input video </b></td>
+	<td style="text-align:center"><b> Make-A-Protagonist </b></td>
+  <td style="text-align:center"><b> Make-A-Protagonist + <span style="color: red;">smooth loss</span></b></td>
 </tr>
 <tr>
   <td><img src="./assets/make-a-protagonist/car-turn.gif"></td>
   <td><img src="./assets/make-a-protagonist/0-a jeep driving down a mountain road in the rain-org.gif"></td>
-    <td><img src="./assets/make-a-protagonist/0-a jeep driving down a mountain road in the rain.gif"></td>
+  <td><img src="./assets/make-a-protagonist/0-a jeep driving down a mountain road in the rain.gif"></td>
 </tr>
 <tr>
 	<td> a jeep driving down a mountain road</td>
-	<td> a jeep driving down a mountain road in the rain </td>
-	<td> a jeep driving down a mountain road in the rain </td>
+	<td colspan="2" style="text-align:center"> a jeep driving down a mountain road <span style="color: red;">in the rain</span> </td>
 </tr>
 <tr>
 	<td><img src="./assets/make-a-protagonist/ikun.gif"></td>
   <td><img src="./assets/make-a-protagonist/0-A man is playing a basketball on the beach, anime style-org.gif"></td>
-    <td><img src="./assets/make-a-protagonist/0-A man is playing a basketball on the beach, anime style.gif"></td>
+  <td><img src="./assets/make-a-protagonist/0-A man is playing a basketball on the beach, anime style.gif"></td>
 </tr>
 <tr>
 	<td>A man is playing basketball</td>
-	<td> A man is playing a basketball on the beach, anime style</td>
-	<td> A man is playing a basketball on the beach, anime style </td>
+	<td colspan="2" style="text-align:center"> A man is playing a basketball <span style="color: red;">on the beach, anime style</span></td>
 </tr>
-%
 <tr>
-<td><img src="./assets/make-a-protagonist/yanzi.gif"></td>
+  <td><img src="./assets/make-a-protagonist/yanzi.gif"></td>
   <td><img src="./assets/make-a-protagonist/0-a panda walking down the snowy street-org.gif"></td>
-    <td><img src="./assets/make-a-protagonist/0-a panda walking down the snowy street.gif"></td>
+  <td><img src="./assets/make-a-protagonist/0-a panda walking down the snowy street.gif"></td>
 </tr>
 <tr>
 	<td>a man walking down the street at night</td>
-	<td> a panda walking down the snowy street </td>
-	<td> a panda walking down the snowy street </td>
+	<td colspan="2" style="text-align:center"> a <span style="color: red;">panda</span> walking down the <span style="color: red;">snowy street</span> </td>
 </tr>
 <tr>
-<td><img src="./assets/make-a-protagonist/huaqiang.gif"></td>
+  <td><img src="./assets/make-a-protagonist/huaqiang.gif"></td>
   <td><img src="./assets/make-a-protagonist/0-elon musk walking down the street-org.gif"></td>
-    <td><img src="./assets/make-a-protagonist/0-elon musk walking down the street.gif"></td>
+  <td><img src="./assets/make-a-protagonist/0-elon musk walking down the street.gif"></td>
 </tr>
 <tr>
-	<td>a man walking down the street</td>
-	<td> elon musk walking down the street </td>
-	<td> elon musk walking down the street </td>
+	<td>a man waling down the street</td>
+  <td colspan="2" style="text-align:center"> <span style="color: red;">elon musk</span> walking down the street </td>
 </tr>
-
 
 
 
@@ -228,88 +224,76 @@ save_videos_grid(video, f"./{prompt}.gif")
 <table class="center">
 <tr>
 	<td > <b>Input video </b></td>
-	<td ><b> Condition </b></td>
-	<td ><b> ControlVideo</b></td>
-	<td ><b> ControlVideo + smooth loss</b></td>
+	<td width=25% style="text-align:center"><b> Condition </b></td>
+	<td width=25% style="text-align:center"><b> ControlVideo</b></td>
+  <td width=25% style="text-align:center"><b> ControlVideo + <span style="color: red;">smooth loss</span></b></td>
 </tr>
 <tr>
   <td><img src="./assets/controlvideo/dance26-Michael Jackson is dancing-1500_merge_0.gif"></td>
-<td><img src="./assets/controlvideo/dance26-Michael Jackson is dancing-1500_merge_1.gif"></td>
-<td><img src="./assets/controlvideo/dance26-Michael Jackson is dancing-1500_merge_2.gif"></td>
-<td><img src="./assets/controlvideo/dance26-Michael Jackson is dancing-1500_merge_3.gif"></td>
+	<td><img src="./assets/controlvideo/dance26-Michael Jackson is dancing-1500_merge_1.gif"></td>
+	<td><img src="./assets/controlvideo/dance26-Michael Jackson is dancing-1500_merge_2.gif"></td>
+	<td><img src="./assets/controlvideo/dance26-Michael Jackson is dancing-1500_merge_3.gif"></td>
 </tr>
 <tr>
 	<td>a person is dancing</td>
-	<td> Pose </td>
-	<td> Michael Jackson is dancing </td>
-	<td> Michael Jackson is dancing </td>
+	<td> Pose condition </td>
+  <td colspan="2" style="text-align:center"> <span style="color: red;">Michael Jackson</span> is dancing </td>
 </tr>
-%
 <tr>
   <td><img src="./assets/controlvideo/dance5-a person is dancing, Makoto Shinkai style-1000_merge_0.gif"></td>
-<td><img src="./assets/controlvideo/dance5-a person is dancing, Makoto Shinkai style-1000_merge_1.gif"></td>
-<td><img src="./assets/controlvideo/dance5-a person is dancing, Makoto Shinkai style-1000_merge_2.gif"></td>
-<td><img src="./assets/controlvideo/dance5-a person is dancing, Makoto Shinkai style-1000_merge_3.gif"></td>
+  <td><img src="./assets/controlvideo/dance5-a person is dancing, Makoto Shinkai style-1000_merge_1.gif"></td>
+  <td><img src="./assets/controlvideo/dance5-a person is dancing, Makoto Shinkai style-1000_merge_2.gif"></td>
+  <td><img src="./assets/controlvideo/dance5-a person is dancing, Makoto Shinkai style-1000_merge_3.gif"></td>
 </tr>
 <tr>
 	<td>a person is dancing</td>
-	<td> Pose </td>
-	<td> a person is dancing, Makoto Shinkai style </td>
-	<td> a person is dancing, Makoto Shinkai style</td>
+	<td> Pose condition</td>
+  <td colspan="2" style="text-align:center"> a person is dancing, <span style="color: red;">Makoto Shinkai style</span> </td>
 </tr>
-%
 <tr>
   <td><img src="./assets/controlvideo/building1-a wooden building, at night-80_merge_0.gif"></td>
-<td><img src="./assets/controlvideo/building1-a wooden building, at night-80_merge_1.gif"></td>
-<td><img src="./assets/controlvideo/building1-a wooden building, at night-80_merge_2.gif"></td>
-<td><img src="./assets/controlvideo/building1-a wooden building, at night-80_merge_3.gif"></td>
+  <td><img src="./assets/controlvideo/building1-a wooden building, at night-80_merge_1.gif"></td>
+  <td><img src="./assets/controlvideo/building1-a wooden building, at night-80_merge_2.gif"></td>
+  <td><img src="./assets/controlvideo/building1-a wooden building, at night-80_merge_3.gif"></td>
 </tr>
 <tr>
 	<td>a building</td>
-	<td> Canny edge </td>
-	<td> a wooden building, at night </td>
-	<td> a wooden building, at night</td>
+	<td> Canny edge condition</td>
+  <td colspan="2" style="text-align:center"> a <span style="color: red;">wooden</span> building, <span style="color: red;">at night</span> </td>
 </tr>
-%
 <tr>
   <td><img src="./assets/controlvideo/girl8-a girl, Krenz Cushart style-300_merge_0.gif"></td>
-<td><img src="./assets/controlvideo/girl8-a girl, Krenz Cushart style-300_merge_1.gif"></td>
-<td><img src="./assets/controlvideo/girl8-a girl, Krenz Cushart style-300_merge_2.gif"></td>
-<td><img src="./assets/controlvideo/girl8-a girl, Krenz Cushart style-300_merge_3.gif"></td>
+  <td><img src="./assets/controlvideo/girl8-a girl, Krenz Cushart style-300_merge_1.gif"></td>
+  <td><img src="./assets/controlvideo/girl8-a girl, Krenz Cushart style-300_merge_2.gif"></td>
+	<td><img src="./assets/controlvideo/girl8-a girl, Krenz Cushart style-300_merge_3.gif"></td>
 </tr>
 <tr>
 	<td>a girl</td>
-	<td> Hed edge </td>
-	<td> a girl, Krenz Cushart style</td>
-	<td> a girl, Krenz Cushart style</td>
+	<td> Hed edge condition</td>
+  <td colspan="2" style="text-align:center"> a girl, <span style="color: red;">Krenz Cushart style</span></td>
 </tr>
-%
 <tr>
   <td><img src="./assets/controlvideo/girlface9_6-a girl with rich makeup-300_merge_0.gif"></td>
-<td><img src="./assets/controlvideo/girlface9_6-a girl with rich makeup-300_merge_1.gif"></td>
-<td><img src="./assets/controlvideo/girlface9_6-a girl with rich makeup-300_merge_2.gif"></td>
-<td><img src="./assets/controlvideo/girlface9_6-a girl with rich makeup-300_merge_3.gif"></td>
+  <td><img src="./assets/controlvideo/girlface9_6-a girl with rich makeup-300_merge_1.gif"></td>
+  <td><img src="./assets/controlvideo/girlface9_6-a girl with rich makeup-300_merge_2.gif"></td>
+  <td><img src="./assets/controlvideo/girlface9_6-a girl with rich makeup-300_merge_3.gif"></td>
 </tr>
 <tr>
 	<td>a girl</td>
-	<td> Hed edge </td>
-	<td> a girl with rich makeup</td>
-	<td> a girl with rich makeup</td>
+	<td> Hed edge condition</td>
+  <td colspan="2" style="text-align:center"> a girl <span style="color: red;">with rich makeup</span></td>
 </tr>
-%
 <tr>
   <td><img src="./assets/controlvideo/ink1-gentle green ink diffuses in water, beautiful light-200_merge_0.gif"></td>
-<td><img src="./assets/controlvideo/ink1-gentle green ink diffuses in water, beautiful light-200_merge_1.gif"></td>
-<td><img src="./assets/controlvideo/ink1-gentle green ink diffuses in water, beautiful light-200_merge_2.gif"></td>
-<td><img src="./assets/controlvideo/ink1-gentle green ink diffuses in water, beautiful light-200_merge_3.gif"></td>
+  <td><img src="./assets/controlvideo/ink1-gentle green ink diffuses in water, beautiful light-200_merge_1.gif"></td>
+  <td><img src="./assets/controlvideo/ink1-gentle green ink diffuses in water, beautiful light-200_merge_2.gif"></td>
+  <td><img src="./assets/controlvideo/ink1-gentle green ink diffuses in water, beautiful light-200_merge_3.gif"></td>
 </tr>
 <tr>
 	<td>ink diffuses in water</td>
-	<td> Depth </td>
-	<td> gentle green ink diffuses in water, beautiful light</td>
-	<td> gentle green ink diffuses in water, beautiful light</td>
+	<td> Depth condition</td>
+  <td colspan="2" style="text-align:center"> <span style="color: red;">gentle green</span> ink diffuses in water, <span style="color: red;">beautiful light</span></td>
 </tr>
-
 
 
 
@@ -317,30 +301,31 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 <table class="center">
 <tr>
-	<td > <b>Input video </b></td>
-	<td ><b> InstructVideo2Video-zero </b></td>
-	<td ><b> InstructVideo2Video-zero+noise constraint </b></td>
-	<td ><b> Video InstructPix2Pix </b></td>
-	<td ><b> Video InstructPix2Pix+noise constraint </b></td>
+	<td width=20% style="text-align:center;word-wrap: break-word;"><b>Input video </b></td>
+	<td width=20% style="text-align:center;word-wrap: break-word;"><b> InstructVideo2Video-zero </b></td>
+	<td width=20% style="text-align:center;word-wrap: break-word;"><b> InstructVideo2Video-zero + noise constraint </b></td>
+	<td width=20% style="text-align:center;word-wrap: break-word;"><b> VideoInstructPix2Pix </b></td>
+	<td width=20% style="text-align:center;word-wrap: break-word;"><b> VideoInstructPix2Pix + noise constraint </b></td>
 </tr>
 <tr>
-	<td><img src="./assets/video2video-zero/mini-cooper.gif"></td>
+	  <td><img src="./assets/video2video-zero/mini-cooper.gif"></td>
   	<td><img src="./assets/video2video-zero/mini-cooper_make it animation_InstructVideo2Video-zero.gif"></td>
-    	<td><img src="./assets/video2video-zero/mini-cooper_make it animation_InstructVideo2Video-zero_noise_cons.gif"></td>
+    <td><img src="./assets/video2video-zero/mini-cooper_make it animation_InstructVideo2Video-zero_noise_cons.gif"></td>
   	<td><img src="./assets/video2video-zero/mini-cooper_make it animation_Video-InstructPix2Pix.gif"></td>
-    	<td><img src="./assets/video2video-zero/mini-cooper_make it animation_Video-InstructPix2Pix_noise_cons.gif"></td>
+    <td><img src="./assets/video2video-zero/mini-cooper_make it animation_Video-InstructPix2Pix_noise_cons.gif"></td>
 </tr>
 <tr>
-	<td colspan="3"> <instruct make it animation></td>
+  <td >  </td>
+  <td colspan="4"> <b>Instruct:</b> make it animation</td>
 </tr>
 </table>
 
 
+
 </table>
 
 
 
-
-## Shoutouts
+## Acknowledgements
 
 - This code builds on [Tune-A-Video](https://github.com/showlab/Tune-A-Video) and [diffusers](https://github.com/huggingface/diffusers). Thanks for open-sourcing!
