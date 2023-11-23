@@ -82,7 +82,7 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 ### Tune-A-Video
 
-
+Comparisons to [Tune-A-Video](https://github.com/showlab/Tune-A-Video).
 
 <table class="center">
 <tr>
@@ -180,7 +180,7 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 ### Make-A-Protagonist
 
-
+Comparisons to [Make-A-Protagonist](https://github.com/HeliosZhao/Make-A-Protagonist).
 
 <table class="center">
 <tr>
@@ -232,7 +232,7 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 ### ControlVideo
 
-
+Comparisons to [ControlVideo](https://github.com/thu-ml/controlvideo).
 
 <table class="center">
 <tr>
@@ -315,7 +315,7 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 ### Video2Video-zero
 
-
+Comparisons to [Training-free methods](https://github.com/Picsart-AI-Research/Text2Video-Zero).
 
 <table class="center">
 <tr>
