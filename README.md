@@ -81,6 +81,7 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 
 #### Tune-A-Video
+
 <table class="center">
 <tr>
 	<td > <b>Input video </b></td>
@@ -173,6 +174,8 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 
 
+
+
 #### Make-A-Protagonist
 
 <table class="center">
@@ -217,6 +220,8 @@ save_videos_grid(video, f"./{prompt}.gif")
 	<td>a man waling down the street</td>
   <td colspan="2" style="text-align:center"> <span style="color: red;">elon musk</span> walking down the street </td>
 </tr>
+
+
 
 
 
@@ -296,6 +301,8 @@ save_videos_grid(video, f"./{prompt}.gif")
 	<td> Depth condition</td>
   <td colspan="2" style="text-align:center"> <span style="color: red;">gentle green</span> ink diffuses in water, <span style="color: red;">beautiful light</span></td>
 </tr>
+
+
 
 
 
