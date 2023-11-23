@@ -72,13 +72,15 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 
 
-## Results
-
 **We provide comparisons with different baselines, as follows:**
 
 
 
-### Tune-A-Video
+## Results 
+
+
+
+#### Tune-A-Video
 <table class="center">
 <tr>
 	<td > <b>Input video </b></td>
@@ -171,7 +173,7 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 
 
-### Make-A-Protagonist
+#### Make-A-Protagonist
 
 <table class="center">
 <tr>
@@ -219,7 +221,7 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 
 
-### ControlVideo
+#### ControlVideo
 
 <table class="center">
 <tr>
@@ -299,7 +301,7 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 
 
-### Video2Video-zero
+#### Video2Video-zero
 
 <table class="center">
 <tr>
