@@ -81,7 +81,6 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 
 #### Tune-A-Video
-
 <table class="center">
 <tr>
 	<td > <b>Input video </b></td>
@@ -177,7 +176,6 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 
 #### Make-A-Protagonist
-
 <table class="center">
 <tr>
 	<td> <b>Input video </b></td>
@@ -227,7 +225,6 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 
 #### ControlVideo
-
 <table class="center">
 <tr>
 	<td > <b>Input video </b></td>
@@ -309,7 +306,6 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 
 #### Video2Video-zero
-
 <table class="center">
 <tr>
 	<td width=20% style="text-align:center;word-wrap: break-word;"><b>Input video </b></td>
