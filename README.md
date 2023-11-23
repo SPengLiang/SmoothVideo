@@ -167,11 +167,13 @@ Comparisons to [Tune-A-Video](https://github.com/showlab/Tune-A-Video).
 </tr>
 <tr>
 	<td width=20% style="text-align:center;"> a man is skiing</td>
-	<td width=20% style="text-align:center;"> a man -> mickey mouse </td>
+	<td width=20% style="text-align:center;"> mickey mouse is skiing on the snow</td>
 	<td width=20% style="text-align:center;"> <span style="color: red;">spider man</span> is skiing on the <span style="color: red;">beach, cartoon style</span> </td>
 	<td width=20% style="text-align:center;"> <span style="color: red;">wonder woman, wearing a cowboy hat</span>, is skiing </td>
 	<td width=20% style="text-align:center;"> a man, <span style="color: red;">wearing pink clothes</span>, is skiing <span style="color: red;">at sunset</span> </td>
 </tr>
+</table>
+
 
 
 
@@ -224,6 +226,8 @@ Comparisons to [Make-A-Protagonist](https://github.com/HeliosZhao/Make-A-Protago
 	<td>a man waling down the street</td>
   <td colspan="2" style="text-align:center"> <span style="color: red;">elon musk</span> walking down the street </td>
 </tr>
+</table>
+
 
 
 
@@ -307,6 +311,8 @@ Comparisons to [ControlVideo](https://github.com/thu-ml/controlvideo).
 	<td> Depth condition</td>
   <td colspan="2" style="text-align:center"> <span style="color: red;">gentle green</span> ink diffuses in water, <span style="color: red;">beautiful light</span></td>
 </tr>
+</table>
+
 
 
 
