@@ -74,6 +74,10 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 ## Results
 
+**We provide comparisons with different baselines, as follows:**
+
+
+
 ### Tune-A-Video
 <table class="center">
 <tr>
@@ -158,15 +162,11 @@ save_videos_grid(video, f"./{prompt}.gif")
 </tr>
 <tr>
 	<td width=20% style="text-align:center;"> a man is skiing</td>
-	<td width=20% style="text-align:center;"> <span style="color: red;">mickey mouse</span> is skiing on the snow </td>
+	<td width=20% style="text-align:center;"> a man -> mickey mouse </td>
 	<td width=20% style="text-align:center;"> <span style="color: red;">spider man</span> is skiing on the <span style="color: red;">beach, cartoon style</span> </td>
 	<td width=20% style="text-align:center;"> <span style="color: red;">wonder woman, wearing a cowboy hat</span>, is skiing </td>
 	<td width=20% style="text-align:center;"> a man, <span style="color: red;">wearing pink clothes</span>, is skiing <span style="color: red;">at sunset</span> </td>
 </tr>
-
-
-
-**We provide other baseline results comparisons, as follows:**
 
 
 
@@ -297,15 +297,17 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 
 
+
+
 ### Video2Video-zero
 
 <table class="center">
 <tr>
 	<td width=20% style="text-align:center;word-wrap: break-word;"><b>Input video </b></td>
-	<td width=20% style="text-align:center;word-wrap: break-word;"><b> InstructVideo2Video-zero </b></td>
-	<td width=20% style="text-align:center;word-wrap: break-word;"><b> InstructVideo2Video-zero + noise constraint </b></td>
-	<td width=20% style="text-align:center;word-wrap: break-word;"><b> VideoInstructPix2Pix </b></td>
-	<td width=20% style="text-align:center;word-wrap: break-word;"><b> VideoInstructPix2Pix + noise constraint </b></td>
+	<td width=20% style="text-align:center;word-wrap: break-word;"><b> Instruct Video2Video-zero </b></td>
+	<td width=20% style="text-align:center;word-wrap: break-word;"><b> Instruct Video2Video-zero + noise constraint </b></td>
+	<td width=20% style="text-align:center;word-wrap: break-word;"><b> Video InstructPix2Pix </b></td>
+	<td width=20% style="text-align:center;word-wrap: break-word;"><b> Video InstructPix2Pix + noise constraint </b></td>
 </tr>
 <tr>
 	  <td><img src="./assets/video2video-zero/mini-cooper.gif"></td>
@@ -323,8 +325,6 @@ save_videos_grid(video, f"./{prompt}.gif")
 
 
 </table>
-
-
 
 ## Acknowledgements
 
