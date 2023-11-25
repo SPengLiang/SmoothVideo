@@ -108,11 +108,11 @@ Comparisons to [Tune-A-Video](https://github.com/showlab/Tune-A-Video).
   <td><img src="./assets/tune-a-video/car-turn_smooth_a sports car is moving on the road.gif"></td>
 </tr>
 <tr>
-	<td width=20% style="text-align:center;"> a jeep car is moving on the road</td>
-	<td width=20% style="text-align:center;"> a jeep car is moving on the <span style="color: red;">beach</span> </td>
-	<td width=20% style="text-align:center;"> a jeep car is moving on the <span style="color: red;">snow</span> </td>
-	<td width=20% style="text-align:center;"> a jeep car is moving on the road, <span style="color: red;">cartoon style</span> </td>
-	<td width=20% style="text-align:center;"> a <span style="color: red;">sports car</span> is moving on the road </td>
+	<td width=20% style="text-align:center;"> A jeep car is moving on the road</td>
+	<td width=20% style="text-align:center;"> A jeep car is moving on the <span style="color: red;">beach</span> </td>
+	<td width=20% style="text-align:center;"> A jeep car is moving on the <span style="color: red;">snow</span> </td>
+	<td width=20% style="text-align:center;"> A jeep car is moving on the road, <span style="color: red;">cartoon style</span> </td>
+	<td width=20% style="text-align:center;"> A <span style="color: red;">sports car</span> is moving on the road </td>
 </tr>
 <tr>
 	<td > <b>Input video </b></td>
@@ -137,11 +137,11 @@ Comparisons to [Tune-A-Video](https://github.com/showlab/Tune-A-Video).
   <td><img src="./assets/tune-a-video/rabbit-watermelon_smooth_a puppy is eating an orange.gif"></td>
 </tr>
 <tr>
-	<td width=20% style="text-align:center;"> a rabbit is eating a watermelon</td>
-	<td width=20% style="text-align:center;"> a <span style="color: red;">tiger</span> is eating a watermelon </td>
-	<td width=20% style="text-align:center;"> a rabbit is eating an <span style="color: red;">orange</span> </td>
-	<td width=20% style="text-align:center;"> a rabbit is eating a <span style="color: red;">pizza</span> </td>
-	<td width=20% style="text-align:center;"> a <span style="color: red;">puppy</span> is eating an <span style="color: red;">orange</span></td>
+	<td width=20% style="text-align:center;"> A rabbit is eating a watermelon</td>
+	<td width=20% style="text-align:center;"> A <span style="color: red;">tiger</span> is eating a watermelon </td>
+	<td width=20% style="text-align:center;"> A rabbit is eating an <span style="color: red;">orange</span> </td>
+	<td width=20% style="text-align:center;"> A rabbit is eating a <span style="color: red;">pizza</span> </td>
+	<td width=20% style="text-align:center;"> A <span style="color: red;">puppy</span> is eating an <span style="color: red;">orange</span></td>
 </tr>
 <tr>
 	<td > <b>Input video </b></td>
@@ -166,11 +166,11 @@ Comparisons to [Tune-A-Video](https://github.com/showlab/Tune-A-Video).
   <td><img src="./assets/tune-a-video/man-skiing_smooth_a man, wearing pink clothes, is skiing at sunset.gif"></td>
 </tr>
 <tr>
-	<td width=20% style="text-align:center;"> a man is skiing</td>
-  <td width=20% style="text-align:center;">  <span style="color: red;">mickey mouse</span> is skiing on the snow</td>
-	<td width=20% style="text-align:center;"> <span style="color: red;">spider man</span> is skiing on the <span style="color: red;">beach, cartoon style</span> </td>
-	<td width=20% style="text-align:center;"> <span style="color: red;">wonder woman, wearing a cowboy hat</span>, is skiing </td>
-	<td width=20% style="text-align:center;"> a man, <span style="color: red;">wearing pink clothes</span>, is skiing <span style="color: red;">at sunset</span> </td>
+	<td width=20% style="text-align:center;"> A man is skiing</td>
+  <td width=20% style="text-align:center;">  <span style="color: red;">Mickey mouse</span> is skiing on the snow</td>
+	<td width=20% style="text-align:center;"> <span style="color: red;">Spider man</span> is skiing on the <span style="color: red;">beach, cartoon style</span> </td>
+	<td width=20% style="text-align:center;"> <span style="color: red;">Wonder woman, wearing a cowboy hat</span>, is skiing </td>
+	<td width=20% style="text-align:center;"> A man, <span style="color: red;">wearing pink clothes</span>, is skiing <span style="color: red;">at sunset</span> </td>
 </tr>
 </table>
 
@@ -196,8 +196,8 @@ Comparisons to [Make-A-Protagonist](https://github.com/HeliosZhao/Make-A-Protago
   <td><img src="./assets/make-a-protagonist/0-a jeep driving down a mountain road in the rain.gif"></td>
 </tr>
 <tr>
-	<td> a jeep driving down a mountain road</td>
-	<td colspan="2" style="text-align:center"> a jeep driving down a mountain road <span style="color: red;">in the rain</span> </td>
+	<td> A jeep driving down a mountain road</td>
+	<td colspan="2" style="text-align:center"> A jeep driving down a mountain road <span style="color: red;">in the rain</span> </td>
 </tr>
 <tr>
 	<td><img src="./assets/make-a-protagonist/ikun.gif"></td>
@@ -214,8 +214,8 @@ Comparisons to [Make-A-Protagonist](https://github.com/HeliosZhao/Make-A-Protago
   <td><img src="./assets/make-a-protagonist/0-a panda walking down the snowy street.gif"></td>
 </tr>
 <tr>
-	<td>a man walking down the street at night</td>
-	<td colspan="2" style="text-align:center"> a <span style="color: red;">panda</span> walking down the <span style="color: red;">snowy street</span> </td>
+	<td>A man walking down the street at night</td>
+	<td colspan="2" style="text-align:center"> A <span style="color: red;">panda</span> walking down the <span style="color: red;">snowy street</span> </td>
 </tr>
 <tr>
   <td><img src="./assets/make-a-protagonist/huaqiang.gif"></td>
@@ -223,8 +223,8 @@ Comparisons to [Make-A-Protagonist](https://github.com/HeliosZhao/Make-A-Protago
   <td><img src="./assets/make-a-protagonist/0-elon musk walking down the street.gif"></td>
 </tr>
 <tr>
-	<td>a man waling down the street</td>
-  <td colspan="2" style="text-align:center"> <span style="color: red;">elon musk</span> walking down the street </td>
+	<td>A man waling down the street</td>
+  <td colspan="2" style="text-align:center"> <span style="color: red;">Elon musk</span> walking down the street </td>
 </tr>
 </table>
 
@@ -252,7 +252,7 @@ Comparisons to [ControlVideo](https://github.com/thu-ml/controlvideo).
 	<td><img src="./assets/controlvideo/dance26-Michael Jackson is dancing-1500_merge_3.gif"></td>
 </tr>
 <tr>
-	<td>a person is dancing</td>
+	<td>A person is dancing</td>
 	<td> Pose condition </td>
   <td colspan="2" style="text-align:center"> <span style="color: red;">Michael Jackson</span> is dancing </td>
 </tr>
@@ -263,9 +263,9 @@ Comparisons to [ControlVideo](https://github.com/thu-ml/controlvideo).
   <td><img src="./assets/controlvideo/dance5-a person is dancing, Makoto Shinkai style-1000_merge_3.gif"></td>
 </tr>
 <tr>
-	<td>a person is dancing</td>
+	<td>A person is dancing</td>
 	<td> Pose condition</td>
-  <td colspan="2" style="text-align:center"> a person is dancing, <span style="color: red;">Makoto Shinkai style</span> </td>
+  <td colspan="2" style="text-align:center"> A person is dancing, <span style="color: red;">Makoto Shinkai style</span> </td>
 </tr>
 <tr>
   <td><img src="./assets/controlvideo/building1-a wooden building, at night-80_merge_0.gif"></td>
@@ -274,9 +274,9 @@ Comparisons to [ControlVideo](https://github.com/thu-ml/controlvideo).
   <td><img src="./assets/controlvideo/building1-a wooden building, at night-80_merge_3.gif"></td>
 </tr>
 <tr>
-	<td>a building</td>
+	<td>A building</td>
 	<td> Canny edge condition</td>
-  <td colspan="2" style="text-align:center"> a <span style="color: red;">wooden</span> building, <span style="color: red;">at night</span> </td>
+  <td colspan="2" style="text-align:center"> A <span style="color: red;">wooden</span> building, <span style="color: red;">at night</span> </td>
 </tr>
 <tr>
   <td><img src="./assets/controlvideo/girl8-a girl, Krenz Cushart style-300_merge_0.gif"></td>
@@ -285,9 +285,9 @@ Comparisons to [ControlVideo](https://github.com/thu-ml/controlvideo).
 	<td><img src="./assets/controlvideo/girl8-a girl, Krenz Cushart style-300_merge_3.gif"></td>
 </tr>
 <tr>
-	<td>a girl</td>
+	<td>A girl</td>
 	<td> Hed edge condition</td>
-  <td colspan="2" style="text-align:center"> a girl, <span style="color: red;">Krenz Cushart style</span></td>
+  <td colspan="2" style="text-align:center"> A girl, <span style="color: red;">Krenz Cushart style</span></td>
 </tr>
 <tr>
   <td><img src="./assets/controlvideo/girlface9_6-a girl with rich makeup-300_merge_0.gif"></td>
@@ -296,9 +296,9 @@ Comparisons to [ControlVideo](https://github.com/thu-ml/controlvideo).
   <td><img src="./assets/controlvideo/girlface9_6-a girl with rich makeup-300_merge_3.gif"></td>
 </tr>
 <tr>
-	<td>a girl</td>
+	<td>A girl</td>
 	<td> Hed edge condition</td>
-  <td colspan="2" style="text-align:center"> a girl <span style="color: red;">with rich makeup</span></td>
+  <td colspan="2" style="text-align:center"> A girl <span style="color: red;">with rich makeup</span></td>
 </tr>
 <tr>
   <td><img src="./assets/controlvideo/ink1-gentle green ink diffuses in water, beautiful light-200_merge_0.gif"></td>
@@ -307,9 +307,9 @@ Comparisons to [ControlVideo](https://github.com/thu-ml/controlvideo).
   <td><img src="./assets/controlvideo/ink1-gentle green ink diffuses in water, beautiful light-200_merge_3.gif"></td>
 </tr>
 <tr>
-	<td>ink diffuses in water</td>
+	<td>Ink diffuses in water</td>
 	<td> Depth condition</td>
-  <td colspan="2" style="text-align:center"> <span style="color: red;">gentle green</span> ink diffuses in water, <span style="color: red;">beautiful light</span></td>
+  <td colspan="2" style="text-align:center"> <span style="color: red;">Gentle green</span> ink diffuses in water, <span style="color: red;">beautiful light</span></td>
 </tr>
 </table>
 
@@ -340,7 +340,8 @@ Comparisons to [Training-free methods](https://github.com/Picsart-AI-Research/Te
 </tr>
 <tr>
   <td >  </td>
-  <td colspan="4"> <b>Instruct:</b> make it animation</td>
+  <td colspan="4"> <b>Instruct:</b> Make it animation</td>
 </tr>
 </table>
+
 
